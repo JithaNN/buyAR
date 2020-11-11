@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>buyAR</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="assets/logo.PNG" width="170px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="aboutUs.html">ABOUT US</a></li>
+				</ul>
+			</nav>
+			<img src="assets/cart.png" width="75px">
+			<img src="assets/menu.png" class="menuIcon" onclick="menutoggle()">
+		</div>
+		
+		<div class="row">
+			<div class="col-2">
+				<h1>
+					Be Trend
+					<br> With Us !
+				</h1>
+				<a href="" class="btn">Shop Now &nbsp; &#xbb;</a>
+			</div>
+			<div class="col-2">
+				<img src="assets/img4.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Featured Category Start -->
+<div class="categories">
+	<div class="small-container">
+		<h2 class="title">Featured Category</h2>
+		<div class="row">
+			<div class="col-3">
+				<img src="assets/cat1.png">
+				<h4><a href=""> Kids Category</a></h4>
+			</div>
+			<div class="col-3">
+				<img src="assets/cat2.png">
+				<h4><a href=""> Men Category</a></h4>
+			</div>
+			<div class="col-3">
+				<img src="assets/cat3.png">
+				<h4><a href="">Women Category</a></h4>
+			</div>
+			<div class="col-3">
+				<img src="assets/cat4.png">
+				<h4><a href="">Shoes Category</a></h4>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Featured Category End -->
+
+<!-- Featured Products Start -->
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="assets/prod1.png">
+			<h3>Full Sleve Shirt : Black</h3>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<hp>LKR 1,750.00</p>
+			<a href="" class="btn1">Add to Cart</a>
+		</div>
+		<div class="col-4">
+			<img src="assets/prod2.png">
+			<h3>Jogging Shoes</h3>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<h4>LKR 2,500.00</h4>
+			<a href="" class="btn1">Add to Cart</a>
+		</div>
+		<div class="col-4">
+			<img src="assets/prod3.png">
+			<h3>Party Frogs</h3>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<h4>LKR 3,800.00</h4>
+			<a href="" class="btn1">Add to Cart</a>
+		</div>
+	</div>
+</div>
+<!-- Featured Products End -->
+
+<!-- Footer Start -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Get Our App</h3>
+				<p>Get App for Android, iOS & Windows Mobile Phones	</p>
+				<div class="app-logo">
+					<img src="assets/pStore.png">
+					<img src="assets/aStore.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="assets/logo.png">
+				<p>Our perpose is to make our customer smile and joy.</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Return Policy</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>YouTube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2020 - R Inthirajithan</p>
+	</div>
+</div>
+<!--Footer End -->
+
+<!-- Java Script for toggled Menu-->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle(){
+		if (MenuItems.style.maxHeight == "0px"){
+			MenuItems.style.maxHeight = "200px";
+		} else{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+</body>
+</html>
